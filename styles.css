@@ -3,18 +3,55 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style-type: none;
 }
 
 /* --------------------- */
 
 body {
   height: 100vh;
+  font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
+/* --------------------- */
+
 /*
+
   HERO
+  
 */
 
+.hero {
+  background-color: #1f2937;
+  color: #fafbfc;
+}
+
+.navbar,
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  padding: 10px 250px;
+}
+
+.navbar ul {
+  gap: 20px;
+}
+
+.navbar p {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* --------------------- */
