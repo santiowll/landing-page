@@ -36,7 +36,8 @@ body {
   align-items: center;
 }
 
-.navbar {
+.navbar,
+.front-page {
   padding: 10px 250px;
 }
 
@@ -52,6 +53,33 @@ body {
 .navbar a {
   text-decoration: none;
   color: #ffffff;
+}
+
+.front-page {
+  margin: 100px 0;
+  display: flex;
+  gap: 50px;
+}
+
+.text-content-front-page h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.text-content-front-page p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.text-content-front-page button {
+  color: #ffffff;
+  font-weight: 900;
+  margin-top: 10px;
+  padding: 8px 30px;
+  background-color: #3882f6;
+  border: 0;
+  border-radius: 10px;
 }
 
 /* --------------------- */
