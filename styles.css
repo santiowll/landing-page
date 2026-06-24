@@ -38,7 +38,7 @@ body {
 
 .navbar,
 .front-page {
-  padding: 10px 250px;
+  padding: 10px 400px;
 }
 
 .navbar ul {
@@ -58,6 +58,7 @@ body {
 .front-page {
   margin: 100px 0;
   display: flex;
+  justify-content: space-between;
   gap: 50px;
 }
 
@@ -68,6 +69,7 @@ body {
 }
 
 .text-content-front-page p {
+  max-width: 500px;
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -79,7 +81,7 @@ body {
   padding: 8px 30px;
   background-color: #3882f6;
   border: 0;
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: pointer;
 
 }
