@@ -80,6 +80,8 @@ body {
   background-color: #3882f6;
   border: 0;
   border-radius: 10px;
+  cursor: pointer;
+
 }
 
 /* --------------------- */
@@ -155,3 +157,49 @@ body {
   font-weight: 600;
   font-size: 1.2em;
 }
+
+/* --------------------- */
+
+/*
+
+  SING UP
+  
+*/
+
+.sing-up {
+  padding: 80px;
+}
+
+.sing-up-blue-box {
+  background-color: #3882f6;
+  padding: 50px 150px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sing-up-blue-box button {
+  color: #ffffff;
+  font-weight: 900;
+  margin-top: 10px;
+  padding: 8px 30px;
+  background-color: #3882f6;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.sing-up-text {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+/* --------------------- */
+
+/*
+
+  FOOTER
+  
+*/
