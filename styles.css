@@ -126,3 +126,32 @@ body {
   text-align: center;
   padding: 10px;
 }
+
+/* --------------------- */
+
+/*
+
+  QUOTE SECTION
+  
+*/
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 100px 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+#quote-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#quote-author {
+  font-weight: 600;
+  font-size: 1.2em;
+}
